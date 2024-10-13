@@ -1,0 +1,39 @@
+h1
+p {
+    color: white;
+    background-color: blue;
+}
+.my-header {
+    border-style: solid;
+    border-width: 50px;
+    border-color: blue;
+}
+.my-header h1 {
+    border-bottom-style: dashed;
+    border-color: red;
+}
+.navbar{
+    border-top-style: solid;
+    border-bottom-style: double;
+    border-left-style: dashed;
+    border-right-style: inset;
+    border-width: 3px;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: blue;
+    border-right-color: yellow;
+}
+.main-container h2{
+    border-bottom: 1px dashed red;
+
+}
+.main-container p{
+    border-left: 10px solid green;
+}
+.main-container .rounded{
+    border: 1px solid purple;
+    height: 100px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: pink;
+}
